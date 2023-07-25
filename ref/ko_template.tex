@@ -1,0 +1,165 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{kotex} % 한글
+%\usepackage{graphicx}
+%\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+\par{\centering{\Huge 박 \textsc{호열}}\bigskip\par} % Your name
+\bigskip
+\section{Personal Data}
+
+\begin{tabular}{l}
+\textsc{현주소:}  제주시 조천읍 신촌서5길 93 \\
+\textsc{전화번호:}  010-5852-9617\\
+\textsc{email:}  \href{mailto:hoyoul.park@gmail.com}{hoyoul.park@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\bigskip
+\section{Work Experience}
+\setstretch{1.0}
+\begin{tabular}{l|p{11cm}}
+  \emph{현재까지} & 취업 준비\\
+  \multicolumn{2}{c}{} \\
+  \setstretch{1.0}
+
+%------------------------------------------------
+\textsc{2021 - 2022} & \emph{ PnC - 연구실장 }\\ 
+& \footnotesize{- Software Engineer, smart water monitoring system 개발 }\\
+\multicolumn{2}{c}{} \\
+  
+%------------------------------------------------
+\textsc{2019 - 2021} & \emph{ 대은 - 수석연구원}\\ 
+& \footnotesize{- Software Engineer, 태양광 monitoring system 개발}\\
+\multicolumn{2}{c}{} \\
+  
+%------------------------------------------------
+\textsc{2017 - 2018} & \emph{로보프라임 - CTO}\\ 
+& \footnotesize{- Software Engineer, node.js와 electron- robot팔 submotor 제어}\\
+\multicolumn{2}{c}{} \\
+  
+%------------------------------------------------
+\textsc{2011 - 2014} & \emph{LG전자 선행상품연구소 Task-Force team (A.I,IOT,AR,VR) -선임연구원}\\ 
+& \footnotesize{- Software Engineer , 특이사항:해외우수인재로 입사}
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+\textsc{2010 - summer} & \textit{[Summer Internship]}  \emph{Avionics, in albuquerque, santa fe -인턴쉽}\\
+& \footnotesize{- Software Engineer}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+\textsc{2003 - 2007} & \emph{삼성전자 무선사업부-공채 43기 -선임연구원}\\
+& \footnotesize{- Embedded Engineer}\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\bigskip
+\section{Education}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{2009-2011} & \emph{Computer science major, University of New Mexico}\\
+& \footnotesize{석박사과정, 석사졸업,박사 포기 후 LG입사, gpa: 3.75/4.0 }\\
+\multicolumn{2}{c}{} \\
+
+\textsc{2008-2009} & \emph{Computer Science major, University of California, Irvine} \\
+& \footnotesize{석사과정, 재정문제로 UNM 석박사과정으로 이동} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{1996-2003} & \emph{충남대 컴퓨터공학과 입학}\\
+& \footnotesize{육군병장제대, gpa: 3.68/4.5} \\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS, PATENTS and  ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+\bigskip
+\section{Scholarships, Patents and Certificates}
+
+\begin{tabular}{rl}
+
+\textsc{특허:} & \emph{습관 기반 Gesture를 통한 다른 기기제어-출원번호:14/507,112(미국,EU,중국)}\\
+\textsc{자격증:}& \emph{정보처리기사, SCJP ( java국제자격증 ) }\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\bigskip
+%% \section{Languages}
+
+%% \begin{tabular}{rl}
+%% \textsc{English:} & 실력:중 - IBT Toefl(103), gre(1280)\\
+%% \textsc{Spanish:} & 실력:하 - Antigua, Guatemala에서 3개월 spanish school에서 공부\\
+
+%% \end{tabular}
+
+
+\bigskip
+\section{}
+ \footnotesize{ 위의 적힌 내용엔 거짓이 없으며,  직장관련(SAMSUNG,LG, s-class 등등),학력(UNM,UCI,등등),자격증(정보처리기사,특허)에 관한 모든 증빙서류가 있습니다.}
+\end{document}
+
